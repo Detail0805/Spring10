@@ -1,10 +1,10 @@
-package spring10.spring10;
+package spring10;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Component;
 
 
 //@ContextConfiguration(locations = { "classpath:/spring-defalts2.xml" })
-@Repository("bean")
+@Component("AnnotationBean")
 public class AnnotationBean {
 
 	public String name = "郭台銘";

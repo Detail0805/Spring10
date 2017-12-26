@@ -1,6 +1,10 @@
 
-package spring10.spring10;
+package spring10;
 
+import org.springframework.stereotype.Component;
+
+
+@Component("bean")
 public class springbean {
 	public String name = "john";
 	public String add = "taipei";

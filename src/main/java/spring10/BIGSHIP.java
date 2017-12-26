@@ -1,11 +1,11 @@
-package spring10.spring10;
+package spring10;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 
-@ContextConfiguration(locations = { "classpath:/spring-defalts2.xml" })
+//@ContextConfiguration(locations = { "classpath:/spring-defalts2.xml" })
 public class BIGSHIP {
 	@Autowired
 	@Qualifier("bean")

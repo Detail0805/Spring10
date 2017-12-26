@@ -1,4 +1,4 @@
-package spring10.spring10;
+package spring10;
 
 /**
  * Hello world!
